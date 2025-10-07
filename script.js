@@ -4,7 +4,7 @@ document.onreadystatechange = () =>
     console.log("Documento ready");
     const secciones = [{
         id: "btn_seccion_2",
-        ruta: "seccion_2.html"
+        ruta: "paginas/seccion_2.html"
     }]
     
     secciones.forEach(seccion => AsignarEvento(seccion))
