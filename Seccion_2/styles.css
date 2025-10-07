@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.article{
+
+}
+
+header{
+    background-color: rgb(87, 37, 37);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+}
