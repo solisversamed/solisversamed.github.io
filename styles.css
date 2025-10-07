@@ -81,3 +81,14 @@ footer{
 #tema{
     font-size: 25px;
 }
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+button{
+    border: none;
+    background: transparent;
+}
