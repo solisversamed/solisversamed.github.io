@@ -8,6 +8,7 @@
 
 .seccion{
     display: flex;
+    flex-direction: column;
     width: 300px;
     height: 100px;
     background: linear-gradient(rgb(20, 50, 131), rgb(31, 110, 207));
@@ -20,8 +21,14 @@
     cursor: pointer;
     border-radius: 20px;
 }
+.seccion small{
+    font-size: 20px;
+    opacity: 0.5;
+}
 
-.seccion:hover{
+
+
+button:hover{
     transform: scale(1.2);
     
 }
@@ -37,9 +44,10 @@
 }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     margin-left: 20px;
     margin: 0px;
+    font-family: Raleway;
 }
 
 header{
@@ -85,10 +93,43 @@ footer{
 button a{
     color: white;
     text-decoration: none;
-    font-size: 25px;
-    font-weight: bold;
 }
 button{
+    color: white;
     border: none;
     background: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Raleway;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.tema{
+    background: linear-gradient(rgb(91, 26, 188), rgb(115, 42, 184));
+    height: 50px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 2px 2px 10px rgba(29, 5, 115, 0.5);
+}
+
+section{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+a:hover{
+   opacity: 0.5;
 }
