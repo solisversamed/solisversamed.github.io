@@ -34,7 +34,7 @@ body{
 #btn-volver{
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 150px;
     background: linear-gradient(rgb(20, 50, 131), rgb(31, 110, 207));
     box-shadow: 2px 2px 2px black ;
     text-align: center;
