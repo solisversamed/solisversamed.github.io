@@ -82,3 +82,38 @@ footer{
     height: 50px;
     line-height: 50px;
 }
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;   
+}
+
+#btn-volver{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background: linear-gradient(rgb(20, 50, 131), rgb(31, 110, 207));
+    box-shadow: 2px 2px 2px black ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    height: 50px;
+    margin-right: 20px;
+}
+
+header h1{
+    margin-left: 20px;
+}
+
+#btn-volver:hover{
+    transform: scale(1.05);
+}
