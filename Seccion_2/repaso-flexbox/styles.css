@@ -47,24 +47,6 @@ body{
     flex-grow: 1;
 }
 
-#btn-volver{
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    height: 50px;
-    background: linear-gradient(rgb(20, 50, 131), rgb(31, 110, 207));
-    box-shadow: 2px 2px 2px black ;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    border-radius: 20px;
-    font-size: 20px;
-    font-family: Raleway, Arial, Helvetica, sans-serif;
-}
-
 button:hover{
     transform: scale(1.05);
     

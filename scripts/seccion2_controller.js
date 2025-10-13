@@ -10,6 +10,12 @@ document.onreadystatechange = () => {
   {
     id: "btn_3",
     ruta: "../Seccion_2/repaso-grid/index.html"
+  },
+
+   {
+    id: "btn_4",
+    ruta: "../Seccion_2/repaso-javascript-moderno/index.html"
+    
   }
 
 ];
