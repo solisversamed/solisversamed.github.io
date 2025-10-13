@@ -7,20 +7,17 @@ body{
     border: 4px solid black;
     background-color: lightgray;
     text-align: center;
-    line-height: 150px;
-    float:left
+    padding: 20px;
+    
 }
 
 .grid-layout{
     display: grid;
-    grid-template-columns: auto auto auto;
-    width: 80%;
-    margin: 0 auto;
     background-color: lightgreen;
-    padding: 20px;
     border: solid black 1px;
-    grid-template-rows: auto auto ;
-    justify-content: stretch;
+    height: 750px;
+    grid-template-areas: 'cabecera cabecera' 'menu menu' 'contenido lateral' 'footer footer';
+    grid-template-rows: 20% 10% auto 10%;
 }
 
 body{
@@ -28,9 +25,30 @@ body{
 }
 
 .c1{
-    grid-column: 1/4;
+    grid-area: cabecera;
+    background-color: lightblue;
 }
 
+.c2{
+    grid-area: menu;
+    background-color: lightyellow;
+}
+
+.c3{
+    grid-area: contenido;
+    background-color: lightsalmon;
+}
+
+.c4
+{
+    grid-area: lateral;
+    background: rgb(201, 143, 114);
+}
+
+.c5{
+    grid-area: footer;
+     background-color: lightpink;
+}
 #btn-volver{
     display: flex;
     flex-direction: column;
