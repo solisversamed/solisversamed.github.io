@@ -136,6 +136,6 @@ a:hover{
 
 .seccion[data-terminado="true"]{
     color: rgb(0, 0, 0);
-    background: linear-gradient(rgb(3, 129, 89) 20%, rgb(18, 219, 15) 95%, rgb(24, 156, 4) 10%);
+    background: linear-gradient(rgb(9, 189, 51) 20%, hsl(85, 99%, 65%) 95%, rgb(24, 156, 4) 10%);
     border: 2px solid rgb(115, 234, 30);
 }
