@@ -71,6 +71,10 @@ header h1{
     margin-left: 20px;
 }
 
+h3{
+    margin-left: 20px;
+}
+
 footer{
     display: flex;
     flex-direction: column;
@@ -121,6 +125,7 @@ section{
     display: grid;
     justify-content: center;
     grid-template-columns: auto auto auto;
+    margin-top: 80px;
 
 }
 
@@ -138,4 +143,6 @@ a:hover{
     color: rgb(0, 0, 0);
     background: linear-gradient(rgb(9, 189, 51) 20%, hsl(85, 99%, 65%) 95%, rgb(24, 156, 4) 10%);
     border: 2px solid rgb(115, 234, 30);
+    
 }
+
