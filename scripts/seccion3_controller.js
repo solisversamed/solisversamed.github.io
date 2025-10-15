@@ -8,6 +8,11 @@ document.onreadystatechange = () => {
     id: "btn_2",
     ruta: "../Seccion_3/02-Variables/index.html"
    
+  },
+    {
+    id: "btn_3",
+    ruta: "../Seccion_3/03-Box-Sizing/index.html"
+   
   }
 ];
 
