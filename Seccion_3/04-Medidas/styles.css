@@ -4,15 +4,6 @@ body{
     height: 1200px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    padding: 20px;
-}
-
 .caja{
     width: 50%;
     height: 50%;
