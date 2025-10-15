@@ -1,0 +1,24 @@
+:root{
+    --mi-variable: #ccc;
+    --fuente: Arial, Verdana;
+    --color-principal: red;
+    --fuente-size: 45px
+}
+
+h1{
+    font-size: var(--fuente-size);
+    color: var(--color-principal);
+    font-family: var(--fuente);
+}
+
+p{
+    font-family: var(--fuente);
+}
+
+a{
+    color: var(--color-principal);
+}
+
+h3{
+    font-size: var(--fuente-size) ;
+}
