@@ -12,7 +12,10 @@ document.onreadystatechange = () => {
     {
     id: "btn_3",
     ruta: "../Seccion_3/03-Box-Sizing/index.html"
-   
+  },
+  {
+    id: "btn_4",
+    ruta: "../Seccion_3/04-Medidas/index.html"
   }
 ];
 
