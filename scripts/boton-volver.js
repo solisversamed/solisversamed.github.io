@@ -3,6 +3,6 @@ document.onreadystatechange = () => {
 
     button.addEventListener("click", (e)=> {
         let seccion = e.target.dataset.seccion;
-        location.href = `../../paginas/seccion_${seccion}.html`;
+        location.href = `/paginas/seccion_${seccion}.html`;
     });
 }
