@@ -16,7 +16,14 @@ document.onreadystatechange = () => {
   {
     id: "btn_4",
     ruta: "/Seccion_3/04-Medidas/px-porcentajes/index.html"
-    
+  },
+  {
+    id: "btn_5",
+    ruta: "/Seccion_3/04-Medidas/em/index.html"
+  },  
+  {
+    id: "btn_6",
+    ruta: "/Seccion_3/04-Medidas/rem/index.html"
   }
 ];
 

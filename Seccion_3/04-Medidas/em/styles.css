@@ -1,15 +1,28 @@
 
-body{
-    margin: 0;
-    height: 1200px;
+/* body{
+    font-size: 40px;
+} */
+
+.padre{
+    font-size: 10px;
+}
+
+.padre h1{
+    font-size: 5em;
+}
+
+.padre2{
+    font-size: 50px;
 }
 
 .caja{
-    width: 250px;
-    height: 250px;
+    width: 13em;
+    height: 13em;
+    text-align: center;
     background-color: aquamarine;
     border: 1px solid black;
-    margin-left: 20px;
-    text-align: center;
-    font-size: 20px;
+}
+
+.caja h3{
+    font-size: 2em;
 }
