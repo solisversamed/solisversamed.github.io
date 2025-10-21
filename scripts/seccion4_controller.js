@@ -40,6 +40,7 @@ document.onreadystatechange = () => {
   }
 ];
 
+
   datosBotones.forEach(datosBoton => {
       let nuevoBoton = document.createElement("button");
       nuevoBoton.classList.add("tema");
