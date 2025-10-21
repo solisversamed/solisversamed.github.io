@@ -10,6 +10,10 @@ document.onreadystatechange = () =>
         {
             id: "btn_seccion_3",
             ruta: "paginas/seccion_3.html"
+        },
+        {
+            id: "btn_seccion_4",
+            ruta: "paginas/seccion_4.html"
         }
     ]
     
