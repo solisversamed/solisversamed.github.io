@@ -5,7 +5,7 @@ document.onreadystatechange = async() =>
     let resultado; 
     await fetch("/database.json")
         .then(response => response.json())
-        .then(data=> resultado = data.secciones[0]);
+        .then(data=> resultado = data.secciones);
 
     console.log(resultado)
 
