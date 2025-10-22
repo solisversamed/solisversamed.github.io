@@ -1,13 +1,11 @@
 
-document.onreadystatechange = async() =>
+document.addEventListener("DOMContentLoaded", async()=>
 {
 
     let resultado; 
     await fetch("/database.json")
         .then(response => response.json())
         .then(data=> resultado = data.secciones);
-
-    console.log(resultado)
 
     let seccionesContainer = document.querySelector("#secciones");
     seccionesContainer.innerHTML = "";
@@ -31,7 +29,9 @@ document.onreadystatechange = async() =>
             `;
 
             button.addEventListener("click", ()=>{
-                location.href= resultado[seccion].ruta;
+
+                let ruta = `/paginas/seccion_portal.html?seccion=${resultado[seccion].numero}`;
+                location.href= numeroDeEjercicios > 0 ? ruta : "#";
             });
 
             seccionesContainer.appendChild(button);
@@ -39,4 +39,4 @@ document.onreadystatechange = async() =>
         }
 
     }
-}
+})
