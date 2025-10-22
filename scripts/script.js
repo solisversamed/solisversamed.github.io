@@ -39,6 +39,4 @@ document.onreadystatechange = async() =>
         }
 
     }
-
- 
 }
