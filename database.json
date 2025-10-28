@@ -1,110 +1,131 @@
 {
-    "secciones": [
-
+  "secciones": [
+    {
+      "nombre": "Sección 1",
+      "numero": 1,
+      "titulo": "Introducción al curso de desarrollo web con 100 proyectos",
+      "ruta": "#",
+      "ejercicios": [],
+      "terminada": "true"
+    },
+    {
+      "nombre": "Sección 2",
+      "numero": 2,
+      "titulo": "Repaso rápido de Desarrollo Web",
+      "ruta": "/paginas/seccion_2.html",
+      "ejercicios": [
         {
-            "nombre":"Sección 1",
-            "numero": 1,
-            "titulo": "Introducción al curso de desarrollo web con 100 proyectos",
-            "ruta":"#",
-            "ejercicios":[
-                
-            ],
-            "terminada": "true"
+          "tema": "Aprendiendo CSS",
+          "ruta": "/Seccion_2/repaso-css/aprendiendo_css.html"
         },
         {
-            "nombre":"Sección 2",
-            "numero": 2,
-            "titulo": "Repaso rápido de Desarrollo Web",
-            "ruta":"/paginas/seccion_2.html",
-            "ejercicios":[
-                {
-                    "tema": "Aprendiendo CSS",
-                    "ruta": "/Seccion_2/repaso-css/aprendiendo_css.html"
-                },
-                {
-                    "tema": "Repaso Flexbox",
-                    "ruta": "/Seccion_2/repaso-flexbox/index.html"
-                },
-                {
-                    "tema": "Repaso Grid",
-                    "ruta": "/Seccion_2/repaso-grid/index.html"
-                },
-                {
-                    "tema": "Repaso JavaScript Moderno",
-                    "ruta": "/Seccion_2/repaso-javascript-moderno/index.html"
-                }
-            ],
-            "terminada": "true"
+          "tema": "Repaso Flexbox",
+          "ruta": "/Seccion_2/repaso-flexbox/index.html"
         },
         {
-            "nombre":"Sección 3",
-            "numero":3,
-            "titulo": "Repaso BEM, Variables, box-sizing, medidas relativas, etc",
-            "ruta":"/paginas/seccion_3.html",
-            "ejercicios":[
-                {
-                    "tema": "Metodología BEM CSS",
-                    "ruta": "/Seccion_3/01-BEM/index.html"
-                },
-                {
-                    "tema": "Variables en CSS",
-                    "ruta": "/Seccion_3/02-Variables/index.html"
-                },
-                {
-                    "tema": "Box-Sizing en CSS",
-                    "ruta": "/Seccion_3/03-Box-Sizing/index.html"
-                },
-                {
-                    "tema": "Unidades de medida en CSS (Px)",
-                    "ruta": "/Seccion_3/04-Medidas/px-porcentajes/index.html"
-                },
-                {
-                    "tema": "Unidades de medida en CSS (EM)",
-                    "ruta": "/Seccion_3/04-Medidas/em/index.html"
-                },
-                {
-                    "tema": "Unidades de medida en CSS (REM)",
-                    "ruta": "/Seccion_3/04-Medidas/rem/index.html"
-                }
-            ],
-            "terminada": "true"
+          "tema": "Repaso Grid",
+          "ruta": "/Seccion_2/repaso-grid/index.html"
         },
         {
-            "nombre":"Sección 4",
-            "numero":4,
-            "titulo": "Proyectos en HTML",
-            "ruta":"/paginas/seccion_4.html",
-            "ejercicios":[
-                {
-                    "tema": "Proyecto 01",
-                    "ruta": "/Seccion_4/proyecto_01/index.html"
-                },
-                { 
-                    "tema": "Proyecto 02",
-                    "ruta": "/Seccion_4/proyecto_02/index.html"
-                },
-                {
-                    "tema": "Proyecto 03",
-                    "ruta": "/Seccion_4/proyecto_03/index.html"
-                },
-                {
-                    "tema": "Proyecto 04",
-                    "ruta": "/Seccion_4/proyecto_04/index.html"
-                },
-                {
-                    "tema": "Proyecto 05",
-                    "ruta": "/Seccion_4/proyecto_05/index.html"
-                },
-                {
-                    "tema": "Proyecto 06",
-                    "ruta": "/Seccion_4/proyecto_06/index.html"
-                },
-                {
-                    "tema": "Proyecto 07",
-                    "ruta": "/Seccion_4/proyecto_07/index.html"
-                }
-            ],
-            "terminada": "false"
+          "tema": "Repaso JavaScript Moderno",
+          "ruta": "/Seccion_2/repaso-javascript-moderno/index.html"
         }
-    ]
+      ],
+      "terminada": "true"
+    },
+    {
+      "nombre": "Sección 3",
+      "numero": 3,
+      "titulo": "Repaso BEM, Variables, box-sizing, medidas relativas, etc",
+      "ruta": "/paginas/seccion_3.html",
+      "ejercicios": [
+        {
+          "tema": "Metodología BEM CSS",
+          "ruta": "/Seccion_3/01-BEM/index.html"
+        },
+        {
+          "tema": "Variables en CSS",
+          "ruta": "/Seccion_3/02-Variables/index.html"
+        },
+        {
+          "tema": "Box-Sizing en CSS",
+          "ruta": "/Seccion_3/03-Box-Sizing/index.html"
+        },
+        {
+          "tema": "Unidades de medida en CSS (Px)",
+          "ruta": "/Seccion_3/04-Medidas/px-porcentajes/index.html"
+        },
+        {
+          "tema": "Unidades de medida en CSS (EM)",
+          "ruta": "/Seccion_3/04-Medidas/em/index.html"
+        },
+        {
+          "tema": "Unidades de medida en CSS (REM)",
+          "ruta": "/Seccion_3/04-Medidas/rem/index.html"
+        }
+      ],
+      "terminada": "true"
+    },
+    {
+      "nombre": "Sección 4",
+      "numero": 4,
+      "titulo": "Proyectos en HTML",
+      "ruta": "/paginas/seccion_4.html",
+      "ejercicios": [
+        {
+          "tema": "Proyecto 01",
+          "ruta": "/Seccion_4/proyecto_01/index.html"
+        },
+        {
+          "tema": "Proyecto 02",
+          "ruta": "/Seccion_4/proyecto_02/index.html"
+        },
+        {
+          "tema": "Proyecto 03",
+          "ruta": "/Seccion_4/proyecto_03/index.html"
+        },
+        {
+          "tema": "Proyecto 04",
+          "ruta": "/Seccion_4/proyecto_04/index.html"
+        },
+        {
+          "tema": "Proyecto 05",
+          "ruta": "/Seccion_4/proyecto_05/index.html"
+        },
+        {
+          "tema": "Proyecto 06",
+          "ruta": "/Seccion_4/proyecto_06/index.html"
+        },
+        {
+          "tema": "Proyecto 07",
+          "ruta": "/Seccion_4/proyecto_07/index.html"
+        },
+        {
+          "tema": "Proyecto 08",
+          "ruta": "/Seccion_4/proyecto_08/index.html"
+        },
+         {
+          "tema": "Proyecto 09",
+          "ruta": "/Seccion_4/proyecto_09/index.html"
+        },
+         {
+          "tema": "Proyecto 10",
+          "ruta": "/Seccion_4/proyecto_10/index.html"
+        },
+        {
+          "tema": "Proyecto 11",
+          "ruta": "/Seccion_4/proyecto_11/index.html"
+        },
+        {
+          "tema": "Proyecto 12",
+          "ruta": "/Seccion_4/proyecto_12/index.html"
+        },
+            {
+          "tema": "Proyecto 13",
+          "ruta": "/Seccion_4/proyecto_13/index.html"
+        }
+      ],
+      "terminada": "false"
+    }
+  ]
 }

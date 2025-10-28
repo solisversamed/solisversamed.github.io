@@ -41,13 +41,30 @@ button:hover{
     row-gap: 50px;
     column-gap: 50px;
     justify-content: center;
+    height: 120%;
+    min-height: 120%;
+    margin-bottom: 20px;
+}
+
+#temas{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 0px;
+    min-height: 100%;
 }
 
 body{
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    display: flex;
+    flex-direction: column;
     margin-left: 20px;
     margin: 0px;
     font-family: Raleway, Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 
 header{
@@ -80,8 +97,6 @@ footer{
     flex-direction: column;
     width: 100%;
     background-color: var(--blue);
-    position: absolute;
-    bottom: 0;
     color: white;
     font-size: 20px;
     height: 100px;
@@ -113,12 +128,12 @@ button{
     background: linear-gradient(rgb(91, 26, 188), rgb(115, 42, 184));
     height: 50px;
     border-radius: 10px;
-    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
     box-shadow: 2px 2px 10px rgba(29, 5, 115, 0.5);
+    width: 10em;
 }
 
 section{

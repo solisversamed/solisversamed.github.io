@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async()=>
 {
     let secciones; 
-    let seccionContainer = document.querySelector("#secciones");
+    let seccionContainer = document.querySelector("#temas");
 
     seccionContainer.innerHTML = "";
 
