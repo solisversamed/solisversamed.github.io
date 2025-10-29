@@ -150,6 +150,19 @@
         }
       ],
       "terminada": "false"
+    },
+    {
+      "nombre": "Sección 5",
+      "numero": 5,
+      "titulo": "Proyectos en CSS",
+      "ruta": "/paginas/seccion_5.html",
+      "ejercicios": [
+        {
+          "tema": "Proyecto 01",
+          "ruta": "/Seccion_5/proyecto_01/index.html"
+        }
+      ],
+      "terminada": "false"
     }
   ]
 }
