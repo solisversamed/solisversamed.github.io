@@ -33,28 +33,29 @@ button:hover{
     
 }
 
-#secciones{
-    width: 100%;
-    margin-top: 5cqh;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    row-gap: 50px;
-    column-gap: 50px;
-    justify-content: center;
-    height: 120%;
-    min-height: 120%;
-    margin-bottom: 20px;
+#secciones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* columnas uniformes */
+  row-gap: 50px; /* distancia fija entre filas */
+  column-gap: 50px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  align-items: start; /* evita estiramiento vertical */
 }
 
-#temas{
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
-    column-gap: 20px;
-    row-gap: 0px;
-    min-height: 100%;
+
+#temas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* columnas uniformes */
+  row-gap: 50px; /* distancia fija entre filas */
+  column-gap: 50px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  align-items: start; /* evita estiramiento vertical */
 }
 
 body{
@@ -126,14 +127,14 @@ button{
 
 .tema{
     background: linear-gradient(rgb(91, 26, 188), rgb(115, 42, 184));
-    height: 50px;
+    height: 3em;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
     box-shadow: 2px 2px 10px rgba(29, 5, 115, 0.5);
-    width: 10em;
+    width: 15em;
 }
 
 section{

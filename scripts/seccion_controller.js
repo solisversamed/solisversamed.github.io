@@ -14,7 +14,10 @@ document.addEventListener("DOMContentLoaded", async()=>
     
 
     let subtema = document.querySelector("#subtema");
-    subtema.innerText = seccion.titulo;
+    subtema.innerText = seccion.nombre + ":";
+    
+    let titulo = document.querySelector("#titulo");
+    titulo.innerText = seccion.titulo;
 
     let ejercicios = seccion.ejercicios;
 
